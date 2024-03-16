@@ -1,0 +1,79 @@
+.categories-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-title {
+  font-family: Mont;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.32px;
+color: var(--Gray-Primary, #313237);
+}
+
+.categories-row {
+  display: flex;
+  width: 100%;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 7px;
+}
+
+
+
+h3 {
+  margin-top: 22px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.category-name {
+  color: var(--gray-primary, #313237);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: 'Mont', 'sans-serif';
+}
+
+.category-counter {
+  color: var(--gray-secondary, #89939A);
+  font-family: 'Mont', 'sans-serif';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.category-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  width: 386px;
+  height: 386px;
+}
+
+.last{
+}
+
+.phones {
+  background-color: #FCDBC1;
+}
+
+.tablets {
+  background-color: #8D8D92;
+}
+
+.accessories {
+  background-color: #973D5F;
+}
